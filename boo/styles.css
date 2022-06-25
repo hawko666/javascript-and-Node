@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.emoji {
+    font-size: 10rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.closed {
+    display: none;
+}
+
+.open {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+button {
+    border: none;
+    padding: 1rem;
+    border-radius: 10px;
+    float: right;
+}
+
+button:hover {
+    background-color: rgb(66, 64, 61);
+}
+
+.btn-primary {
+    background-color: rgb(3, 3, 3);
+    color: rgb(255, 255, 255);
+    padding: auto;
+    display: block;
+    margin: 2rem;
+}
+
+.container {
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+}
